@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/MENUITEM_searchbar"
+        android:title="@string/MENUITEM_searchViewHint"
+        android:icon="@drawable/ic_searchmy"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+
+
+    <item
+        android:id="@+id/MENUITEM_apogee"
+        android:title="@string/MENUITEM_vinPret"
+        android:icon="@drawable/ic_glass"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/MENUITEM_favoris"
+        android:title="@string/MENUITEM_favoris"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/MENUITEM_parametres"
+        android:title="@string/MENUITEM_paramètres"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/MENUITEM_aide"
+        android:title="@string/MENUITEM_aide"
+        app:showAsAction="never">
+    </item>
+</menu>

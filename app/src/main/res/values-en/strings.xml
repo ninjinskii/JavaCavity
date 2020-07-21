@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cavity</string>
+    <string name="contentDescIV">Wine color</string>
+
+    <string name="MENUITEM_searchViewHint">Find a wine&#8230;</string>
+    <string name="MENUITEM_vinPret">Ready to drink</string>
+    <string name="MENUITEM_favoris">Favorite</string>
+    <string name="MENUITEM_paramètres">Settings</string>
+    <string name="MENUITEM_aide">Help</string>
+
+    <string name="MAIN_emptyList">No wine :(</string>
+    <string name="MAIN_nbTotal">Total bottle count: %1$s</string>
+    <string name="MAIN_vinSuppr">Wine deleted</string>
+    <string name="MAIN_annulerSuppr">CANCEL</string>
+    <string name="MAIN_vinAjout">The wine has been added</string>
+    <string name="MAIN_vinModif">The wine has been changed</string>
+    <string name="MAIN_BDimportee">Databse imported</string>
+    <string name="MAIN_BDexistante">A databse already exists, cannot push the new one</string>
+    <string name="MAIN_erreurCopieBD">Something went wrong while pushing the database</string>
+
+    <string name="AJOUTVIN_appBar1">Add wine</string>
+    <string name="AJOUTVIN_appBar2">Modify wine</string>
+    <string name="AJOUTVIN_hint">Fill this form to add a wine</string>
+    <string name="AJOUTVIN_region">Region</string>
+    <string name="AJOUTVIN_appellation">Designation</string>
+    <string name="AJOUTVIN_nom">Name</string>
+    <string name="AJOUTVIN_blanc">White</string>
+    <string name="AJOUTVIN_rouge">Red</string>
+    <string name="AJOUTVIN_rose">Rosé</string>
+    <string name="AJOUTVIN_liquoreux">Sweet</string>
+    <string name="AJOUTVIN_boutonAjouter1">Add</string>
+    <string name="AJOUTVIN_boutonAjouter2">Save</string>
+
+    <string name="BOU_emptyList">No bottles :( .</string>
+    <string name="BOU_title">My bottles</string>
+    <string name="BOU_epuise">Out of stock</string>
+    <string name="BOU_suppr">DELETE</string>
+    <string name="BOU_bouAjout">The bottle has been added</string>
+    <string name="BOU_bouModif">The bottle has been changed</string>
+    <string name="BOU_noPdf">No PDF available</string>
+    <string name="BOU_noPdfApp">It seems like you don\'t have any apps who handles PDF file</string>
+    <string name="BOU_note20">%1$s / 20</string>
+    <string name="BOU_note100">%1$s / 100</string>
+
+    <string name="AJOUTBOU_appBar1">Add a bottle</string>
+    <string name="AJOUTBOU_appBar2">Modify a bottle</string>
+    <string name="AJOUTBOU_mil">Vintage</string>
+    <string name="AJOUTBOU_nombre">Stock*</string>
+    <string name="AJOUTBOU_prixAchat">Buying cost</string>
+    <string name="AJOUTBOU_dateAchat">Date of purchase</string>
+    <string name="AJOUTBOU_lieuxAchat">Purchase place</string>
+    <string name="AJOUTBOU_apogee">Apogee</string>
+    <string name="AJOUTBOU_bronze">Bronze</string>
+    <string name="AJOUTBOU_argent">Silver</string>
+    <string name="AJOUTBOU_or">Gold</string>
+    <string name="AJOUTBOU_note">Mark</string>
+    <string name="AJOUTBOU_1etoile">1 star</string>
+    <string name="AJOUTBOU_2etoiles">2 stars</string>
+    <string name="AJOUTBOU_3etoiles">3 stars</string>
+    <string name="AJOUTBOU_commentaireDis">Details</string>
+    <string name="AJOUTBOU_commentaire">Tasting comment</string>
+    <string name="AJOUTBOU_boutonAjouter1">Add</string>
+    <string name="AJOUTBOU_boutonAjouter2">Save</string>
+    <string name="AJOUTBOU_radioMédaille">Medal</string>
+    <string name="AJOUTBOU_radionNote100">100 Mark</string>
+    <string name="AJOUTBOU_radioNote20">20 Mark</string>
+    <string name="AJOUTBOU_radioEtoiles">Star</string>
+    <string name="AJOUTBOU_radioAucun">Nothing</string>
+    <string name="AJOUTBOU_boutonPdf">Link a PDF File</string>
+    <string name="AJOUTBOU_boutonImage">Link a picture</string>
+    <string name="AJOUTBOU_boutonPdfAnnuler">A PDF file is linked</string>
+    <string name="AJOUTBOU_boutonImageAnnuler">A image is linked</string>
+    <string name="AJOUTBOU_hint1">Important dates</string>
+    <string name="AJOUTBOU_hint2">Purchase info</string>
+    <string name="AJOUTBOU_hint3">Distinction</string>
+    <string name="AJOUTBOU_hint4">External resources</string>
+    <string name="AJOUTBOU_hint5">Thoughts about this wine</string>
+    <string name="AJOUTBOU_fichierRetire">File removed</string>
+    <string name="AJOUTBOU_fichierAjout">File added</string>
+    <string name="AJOUTBOU_entrerNombre">Enter a number</string>
+    <string name="AJOUTBOU_noFileExp">It seems like don\'t have any file explorer</string>
+    <string name="AJOUTBOU_entrerNote100">Enter a mark between 0 and 100</string>
+    <string name="AJOUTBOU_entrerNote20">Enter a mark between 0 and 20</string>
+    <string name="AJOUTBOU_entrerNote">Enter a mark</string>
+    <string name="AJOUTBOU_fichierSelect">File selected</string>
+
+    <string name="VUEBOU_deviseE">€</string>
+    <string name="VUEBOU_deviseF">.-</string>
+    <string name="VUEBOU_deviseD">$</string>
+    <string name="VUEBOU_deviseL">£</string>
+
+    <string name="FAV_hint">Here is the favorites bottles</string>
+    <string name="FAV_empty">No favorite bottle :0</string>
+
+    <string name="PAR_title">Settings</string>
+    <string name="PAR_devise">Motto</string>
+    <string name="PAR_deviseExp">Choose the wanted motto for wine\'s price.</string>
+    <string name="PAR_tri">Sorting wine by color</string>
+    <string name="PAR_triExp">Specify if you want to sort your wines by color or not.</string>
+    <string name="PAR_BD">Export wine database</string>
+    <string name="PAR_BDExp">Allows you to get the wine database on to your device to save it on another peripherals.</string>
+    <string name="PAR_BDI">Import database</string>
+    <string name="PAR_BDIExp">Allows you to import a database. This will emove all your current data. More information in Help section.</string>
+    <string name="PAR_BDExportee">Database extracted (3 files)</string>
+    <string name="PAR_BDExporteeErr">Extraction failed</string>
+    <string name="PAR_warningBD">WARNING: This action will delete your current database. Continue ?</string>
+    <string name="PAR_warningBD2">Are you sure ?</string>
+    <string name="PAR_warningOKBD">VALIDER</string>
+    <string name="PAR_nightMode">Dark Theme</string>
+    <string name="PAR_nightModeExp">Apply a dark theme to preserve your battery (and your nice eyes).</string>
+    <string name="PAR_warning">Cavity needs to restart to apply certain modifications.</string>
+
+    <string name="APOGEE_hint">Here is the bottles ready to be drink</string>
+    <string name="APOGEE_empty">No bottles ready to be drink :S.</string>
+
+    <string name="VUEBOU_mil">Vintage</string>
+    <string name="VUEBOU_dis">Distinction</string>
+    <string name="VUEBOU_stock">Stock</string>
+    <string name="VUEBOU_prix">Buying cost</string>
+    <string name="VUEBOU_lieux">Purchase location</string>
+    <string name="VUEBOU_date">Date of purchase</string>
+    <string name="VUEBOU_apogee">Apogee</string>
+    <string name="VUEBOU_pdf">Open PDF file</string>
+    <string name="VUEBOU_notesdeg">Tasting comment</string>
+    <string name="VUEBOU_ajoutFav">Added to favorites</string>
+    <string name="VUEBOU_retraitFav">Removed from favoites</string>
+    <string name="VUEBOU_imgErr">The picture isn\'t available</string>
+
+    <string name="AIDE_title">Assistance</string>
+    <string name="AIDE_tip1_title">Liste des vins</string>
+    <string name="AIDE_tip1">L\'application s\'ouvre en vous présentant la liste des vins que vous avez.
+        \n\nUn vin est caractérisé par une région, une appellation, un nom et une couleur. Vous pouvez
+        en ajouter un en appuyant sur le bouton + du menu principal.\n\nExemple: Alsace,
+        Gewurstraminer VT Domaine F.Engel, Blanc.\n\n\n</string>
+    <string name="AIDE_tip2_title">Liste des bouteilles</string>
+    <string name="AIDE_tip2">Une fois que l\'on clique sur un vin, l\'application affiche les bouteilles de ce vin.
+        Toutes les bouteilles associées au vin sélectionné seront alors affichées.
+        \n\nExemple: Domaine F.Engel 2014 10€, Domaine F.Engel 2010 16€&#8230;
+        \n\nOn peut renseigner les informations suivantes sur une bouteille: date d\'achat,
+        millésime, date d\'apogée, prix d\'achat, nombre de bouteilles identiques, lieux d\'achat
+        disticntion et concours, notes de dégustation. On peut aussi lier une fiche PDF et une image.
+        \n\nPour supprimer une bouteille, il faut passer son nombre a -1. Cette fonctionnalité
+        permet de garder les informations concernant une bouteille même si vous n\'en avez plus en stock.\n\n\n</string>
+    <string name="AIDE_tip3_title">Consulter une bouteille</string>
+    <string name="AIDE_tip3">Lorsque vous avez créer un vin, puis une bouteille de ce vin, vous pouvez consulter
+        la bouteille en cliquant dessus. La bouteille et ses caractéristiques seront alors présentées de
+        manière esthétique.\n\n\n</string>
+    <string name="AIDE_tip4_title">Modifier un vin / une bouteille</string>
+    <string name="AIDE_tip4">Pour modifier une vin ou une bouteille, il faut effectuer un clique long
+        sur l\'élément voulu.\n\n\n</string>
+    <string name="AIDE_tip5_title">Import existing database</string>
+    <string name="AIDE_tip5">
+        From the settings, you are able to import a database extracted from another phone.
+        Warning, this manipulation will erase your current database.
+        To do so, extract the database from the old phone using "extract database" setting.
+        Then get the 3 files representing the database (from a computer or a smartphone) in
+        the folder Android/data/com.louis.app.cavity/files and move those 3 files into the same folder on the new device.
+        Finally, use "import database" and restart the app.\n\n
+
+        Information:\n
+        These files are nammed (and must always be) like so: vin_databse, vin_database-shm, vin_database-wal.\n
+        If you delete the application, the current database AND the exported one (Android/data/com.louis.app.cavity/files) will disappear.\n\n\n
+    </string>
+</resources>

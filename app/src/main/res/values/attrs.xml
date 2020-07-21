@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CavityAppTheme">
+        <attr name="title2TextColor" format="color"/>
+        <attr name="textTextColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="backgroundCardColor" format="color"/>
+        <attr name="backgroundColor" format="color" />
+        <attr name="itemBgColor" format="color" />
+        <attr name="buttonColor" format="color" />
+        <attr name="radioColor" format="color" />
+        <attr name="buttonTintColor" format="color" />
+        <attr name="textHintColor" format="color" />
+        <attr name="cardViewPart" format="color" />
+        <attr name="titleColorInDark" format="color" />
+        <attr name="colorIcon" format="color" />
+        <attr name="colorCollapsingToolbar" format="integer" />
+    </declare-styleable>
+</resources>

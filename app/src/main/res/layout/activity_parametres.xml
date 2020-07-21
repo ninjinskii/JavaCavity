@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PAR_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".ActivityParametres">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="?attr/textTextColor"
+                android:textStyle="italic"
+                android:text="@string/PAR_warning" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="?attr/backgroundCardColor"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/PAR_relativeLTri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:background="?android:selectableItemBackground" >
+
+                        <TextView
+                            android:id="@+id/PAR_titleTri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="?attr/title2TextColor"
+                            android:textSize="17sp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:text="@string/PAR_tri" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_titleTri"
+                            android:layout_toStartOf="@+id/PAR_switchTri"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="?attr/textTextColor"
+                            android:textSize="14sp"
+                            android:text="@string/PAR_triExp" />
+
+                        <Switch
+                            android:id="@+id/PAR_switchTri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal"
+                            android:checked="false" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/dividerColor" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp">
+
+                        <TextView
+                            android:id="@+id/PAR_titleDevise"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="?attr/title2TextColor"
+                            android:textSize="17sp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:text="@string/PAR_devise" />
+
+                        <TextView
+                            android:id="@+id/PAR_expDevise"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_titleDevise"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="?attr/textTextColor"
+                            android:textSize="14sp"
+                            android:text="@string/PAR_deviseExp" />
+
+                        <RadioGroup
+                            android:id="@+id/PAR_radioDevise"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_expDevise"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/PAR_radioE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:checked="true"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:textColor="?attr/radioColor"
+                                android:text="@string/VUEBOU_deviseE" />
+
+                            <RadioButton
+                                android:id="@+id/PAR_radioF"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:textColor="?attr/radioColor"
+                                android:text="@string/VUEBOU_deviseF" />
+
+                            <RadioButton
+                                android:id="@+id/PAR_radioL"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:textColor="?attr/radioColor"
+                                android:text="@string/VUEBOU_deviseL" />
+
+                            <RadioButton
+                                android:id="@+id/PAR_radioD"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:textColor="?attr/radioColor"
+                                android:text="@string/VUEBOU_deviseD" />
+
+                        </RadioGroup>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/dividerColor" />
+
+                    <RelativeLayout
+                        android:id="@+id/PAR_relativeLBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:background="?android:selectableItemBackground" >
+
+                        <TextView
+                            android:id="@+id/PAR_titleBD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="?attr/title2TextColor"
+                            android:textSize="17sp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:text="@string/PAR_BD" />
+
+                        <TextView
+                            android:id="@+id/PAR_expBD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_titleBD"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="?attr/textTextColor"
+                            android:textSize="14sp"
+                            android:text="@string/PAR_BDExp" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/dividerColor" />
+
+                    <RelativeLayout
+                        android:id="@+id/PAR_relativeLBDI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:background="?android:selectableItemBackground" >
+
+                        <TextView
+                            android:id="@+id/PAR_titleBDI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="?attr/title2TextColor"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textSize="17sp"
+                            android:text="@string/PAR_BDI" />
+
+                        <TextView
+                            android:id="@+id/PAR_expBDI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_titleBDI"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="?attr/textTextColor"
+                            android:textSize="14sp"
+                            android:text="@string/PAR_BDIExp" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/dividerColor" />
+
+                    <RelativeLayout
+                        android:id="@+id/PAR_relativeLNight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:background="?android:selectableItemBackground" >
+
+                        <TextView
+                            android:id="@+id/PAR_titleNightMode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="?attr/title2TextColor"
+                            android:textSize="17sp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:text="@string/PAR_nightMode" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/PAR_titleNightMode"
+                            android:layout_toStartOf="@+id/PAR_switchNightMode"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="?attr/textTextColor"
+                            android:textSize="14sp"
+                            android:text="@string/PAR_nightModeExp" />
+
+                        <Switch
+                            android:id="@+id/PAR_switchNightMode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal"
+                            android:checked="false" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Cavity</string>
+    <string name="contentDescIV">Couleur du vin</string>
+
+    <string name="MENUITEM_searchViewHint">Rechercher un vin&#8230;</string>
+    <string name="MENUITEM_vinPret">Vins prêts à boire</string>
+    <string name="MENUITEM_favoris">Favoris</string>
+    <string name="MENUITEM_paramètres">Paramètres</string>
+    <string name="MENUITEM_aide">Aide</string>
+
+    <string name="MAIN_emptyList">Vous n\'avez aucun vins :( .</string>
+    <string name="MAIN_nbTotal">Nombre total de bouteilles: %1$s</string>
+    <string name="MAIN_vinSuppr">Le vin a été supprimé</string>
+    <string name="MAIN_annulerSuppr">ANNULER</string>
+    <string name="MAIN_vinAjout">Le vin a été ajouté</string>
+    <string name="MAIN_vinModif">Le vin a été modifié</string>
+    <string name="MAIN_BDimportee">Base de données importée</string>
+    <string name="MAIN_BDexistante">Une base de données existe déjà, impossible de charger la nouvelle</string>
+    <string name="MAIN_erreurCopieBD">Erreur lors de la copie de la base de données</string>
+
+    <string name="AJOUTVIN_appBar1">Ajouter un vin</string>
+    <string name="AJOUTVIN_appBar2">Modifier un vin</string>
+    <string name="AJOUTVIN_hint">Saisissez les informations suivantes pour ajouter un vin</string>
+    <string name="AJOUTVIN_region">Région</string>
+    <string name="AJOUTVIN_appellation">Appellation</string>
+    <string name="AJOUTVIN_nom">Nom</string>
+    <string name="AJOUTVIN_blanc">Blanc</string>
+    <string name="AJOUTVIN_rouge">Rouge</string>
+    <string name="AJOUTVIN_rose">Rosé</string>
+    <string name="AJOUTVIN_liquoreux">Liquoreux</string>
+    <string name="AJOUTVIN_boutonAjouter1">Ajouter</string>
+    <string name="AJOUTVIN_boutonAjouter2">Enregistrer</string>
+
+    <string name="BOU_emptyList">Vous n\'avez aucune bouteilles de ce nom :( .</string>
+    <string name="BOU_title">Mes bouteilles</string>
+    <string name="BOU_epuise">Le stock est épuisé</string>
+    <string name="BOU_suppr">SUPPRIMER</string>
+    <string name="BOU_bouAjout">La bouteille a été ajoutée</string>
+    <string name="BOU_bouModif">La bouteille a été modifiée</string>
+    <string name="BOU_noPdf">Aucun PDF disponible</string>
+    <string name="BOU_noPdfApp">Il semberait que vous n\'ayez pas d\'application permettant d\'ouvrir des PDF</string>
+    <string name="BOU_note20">%1$s / 20</string>
+    <string name="BOU_note100">%1$s / 100</string>
+
+    <string name="AJOUTBOU_appBar1">Ajouter une bouteille</string>
+    <string name="AJOUTBOU_appBar2">Modifier une bouteille</string>
+    <string name="AJOUTBOU_mil">Millésime</string>
+    <string name="AJOUTBOU_nombre">Nombre*</string>
+    <string name="AJOUTBOU_prixAchat">Prix à l\'achat</string>
+    <string name="AJOUTBOU_dateAchat">Date de l\'achat</string>
+    <string name="AJOUTBOU_lieuxAchat">Lieux de l\'achat</string>
+    <string name="AJOUTBOU_apogee">Apogée</string>
+    <string name="AJOUTBOU_bronze">Bronze</string>
+    <string name="AJOUTBOU_argent">Argent</string>
+    <string name="AJOUTBOU_or">Or</string>
+    <string name="AJOUTBOU_note">Note</string>
+    <string name="AJOUTBOU_1etoile">1 étoile</string>
+    <string name="AJOUTBOU_2etoiles">2 étoiles</string>
+    <string name="AJOUTBOU_3etoiles">3 étoiles</string>
+    <string name="AJOUTBOU_commentaireDis">Précisions</string>
+    <string name="AJOUTBOU_commentaire">Notes de dégustation</string>
+    <string name="AJOUTBOU_boutonAjouter1">Ajouter</string>
+    <string name="AJOUTBOU_boutonAjouter2">Enregistrer</string>
+    <string name="AJOUTBOU_radioMédaille">Médaille</string>
+    <string name="AJOUTBOU_radionNote100">Note sur 100</string>
+    <string name="AJOUTBOU_radioNote20">Note sur 20</string>
+    <string name="AJOUTBOU_radioEtoiles">Étoiles</string>
+    <string name="AJOUTBOU_radioAucun">Aucune</string>
+    <string name="AJOUTBOU_boutonPdf">Ajouter une fiche PDF</string>
+    <string name="AJOUTBOU_boutonImage">Ajouter une image</string>
+    <string name="AJOUTBOU_boutonPdfAnnuler">Un PDF est sélectionné</string>
+    <string name="AJOUTBOU_boutonImageAnnuler">Une image est sélectionnée</string>
+    <string name="AJOUTBOU_hint1">Dates importantes</string>
+    <string name="AJOUTBOU_hint2">Infomations supplémentaires</string>
+    <string name="AJOUTBOU_hint3">Distinction</string>
+    <string name="AJOUTBOU_hint4">Ressources externes</string>
+    <string name="AJOUTBOU_hint5">Commentaires</string>
+    <string name="AJOUTBOU_fichierRetire">Fichier retiré</string>
+    <string name="AJOUTBOU_fichierAjout">Fichier ajouté</string>
+    <string name="AJOUTBOU_entrerNombre">Entrez un nombre</string>
+    <string name="AJOUTBOU_noFileExp">Il semblerait que vous n\'ayez pas d\'explorateur de fichiers</string>
+    <string name="AJOUTBOU_entrerNote100">Entrez une note comprise entre 0 et 100</string>
+    <string name="AJOUTBOU_entrerNote20">Entrez une note comprise entre 0 et 20</string>
+    <string name="AJOUTBOU_entrerNote">Entrez une note</string>
+    <string name="AJOUTBOU_fichierSelect">Fichier sélectionné</string>
+
+    <string name="VUEBOU_deviseE">€</string>
+    <string name="VUEBOU_deviseF">.-</string>
+    <string name="VUEBOU_deviseD">$</string>
+    <string name="VUEBOU_deviseL">£</string>
+
+    <string name="FAV_hint">Ici se trouvent les bouteilles favorites</string>
+    <string name="FAV_empty">Aucune bouteille favorite :0</string>
+
+    <string name="PAR_title">Paramètres</string>
+    <string name="PAR_devise">Devise</string>
+    <string name="PAR_deviseExp">Choisissez la devise voulue pour le prix des vins.</string>
+    <string name="PAR_tri">Tri par couleur</string>
+    <string name="PAR_triExp">Détermine si vous souhaitez rangez vos vins selon leur couleur ou non.</string>
+    <string name="PAR_BD">Exporter la base de données</string>
+    <string name="PAR_BDExp">Permet de récupérer la base de données des vins sur votre téléphone pour ensuite la sauvgarder sur un autre périphérique.</string>
+    <string name="PAR_BDI">Importer une base de données</string>
+    <string name="PAR_BDIExp">Permet d\'importer une base de données. Remplace vos données actuelles. Consultez la section Aide pour plus d\'informations</string>
+    <string name="PAR_BDExportee">Base de données extraite (3 fichiers)</string>
+    <string name="PAR_BDExporteeErr">L\'extraction a échouée</string>
+    <string name="PAR_warningBD">ATTENTION: cette action supprimera vos données actuelles. Valider ?</string>
+    <string name="PAR_warningBD2">Vous êtes sûr ?</string>
+    <string name="PAR_warningOKBD">VALIDER</string>
+    <string name="PAR_nightMode">Thème sombre</string>
+    <string name="PAR_nightModeExp">Un thème sombre pour préserver votre batterie (et vos beaux yeux).</string>
+    <string name="PAR_warning">Cavity doit redémarrer pour appliquer certaines modifications.</string>
+
+    <string name="APOGEE_hint">Ici se trouvent les bouteilles prêtes à être bues</string>
+    <string name="APOGEE_empty">Pas de bouteilles prêtes à être bues :S.</string>
+
+    <string name="VUEBOU_mil">Millésime</string>
+    <string name="VUEBOU_dis">Distinction</string>
+    <string name="VUEBOU_stock">Stock</string>
+    <string name="VUEBOU_prix">Prix d\'achat</string>
+    <string name="VUEBOU_lieux">Lieux d\'achat</string>
+    <string name="VUEBOU_date">Date d\'achat</string>
+    <string name="VUEBOU_apogee">Apogée</string>
+    <string name="VUEBOU_pdf">Voir le PDF</string>
+    <string name="VUEBOU_notesdeg">Notes de dégustation</string>
+    <string name="VUEBOU_ajoutFav">Ajouté aux favoris</string>
+    <string name="VUEBOU_retraitFav">Retiré des favoris</string>
+    <string name="VUEBOU_imgErr">L\'image n\'est pas disponible</string>
+
+    <string name="AIDE_title">Aide</string>
+    <string name="AIDE_tip1_title">Liste des vins</string>
+    <string name="AIDE_tip1">L\'application s\'ouvre en vous présentant la liste des vins que vous avez.
+        \n\nUn vin est caractérisé par une région, une appellation, un nom et une couleur. Vous pouvez
+        en ajouter un en appuyant sur le bouton + du menu principal.\n\nExemple: Alsace,
+        Gewurstraminer VT Domaine F.Engel, Blanc.\n\n\n</string>
+    <string name="AIDE_tip2_title">Liste des bouteilles</string>
+    <string name="AIDE_tip2">Une fois que l\'on clique sur un vin, l\'application affiche les bouteilles de ce vin.
+        Toutes les bouteilles associées au vin sélectionné seront alors affichées.
+        \n\nExemple: Domaine F.Engel 2014 10€, Domaine F.Engel 2010 16€&#8230;
+        \n\nOn peut renseigner les informations suivantes sur une bouteille: date d\'achat,
+        millésime, date d\'apogée, prix d\'achat, nombre de bouteilles identiques, lieux d\'achat
+        disticntion et concours, notes de dégustation. On peut aussi lier une fiche PDF et une image.
+        \n\nPour supprimer une bouteille, il faut passer son nombre a -1. Cette fonctionnalité
+        permet de garder les informations concernant une bouteille même si vous n\'en avez plus en stock.\n\n\n</string>
+    <string name="AIDE_tip3_title">Consulter une bouteille</string>
+    <string name="AIDE_tip3">Lorsque vous avez créé un vin, puis une bouteille de ce vin, vous pouvez consulter
+        la bouteille en cliquant dessus. La bouteille et ses caractéristiques seront alors présentées de
+        manière esthétique.\n\n\n</string>
+    <string name="AIDE_tip4_title">Modifier un vin / une bouteille</string>
+    <string name="AIDE_tip4">Pour modifier une vin ou une bouteille, il faut effectuer un clique long
+        sur l\'élément voulu.\n\n\n</string>
+    <string name="AIDE_tip5_title">Importer une base de données existante</string>
+    <string name="AIDE_tip5">Vous pouvez depuis les paramètres importer une base de données extraite depuis un téléphone. Attention, cette manipulation effacera votre base de données actuelle.
+        Assurez vous d\'avoir sauvegardé la vôtre au préalable.
+        Pour se faire, une fois avoir extrait la base de données voulue depuis l\'autre périphérique, récupérez les trois fichiers la constituant(depuis un ordinateur ou un téléphone)
+        dans le dossier Android/data/com.louis.app.cavity/files et déplacez les dans ce même dossier du téléphone actuel (créez le s\'il n\'existe pas). Enfin, utilisez l\'option importer une base de données et redémarrez.\n\n
+        Informations:\n
+        - Les 3 fichiers se nomment (et doivent toujours être nommés comme ceci) vin_databse, vin_database-shm, vin_database-wal.\n
+        - Si vous supprimez l\'application, ou les données de l\'application, vous perdrez les fichiers de la base données actuelle et de celles exportées dans le stockage externe (Android/data/com.louis.app.cavity/files).\n\n\n
+    </string>
+</resources>

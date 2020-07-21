@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:background="?attr/itemBgColor"
+    android:orientation="vertical">
+
+    <!-- Séparateur -->
+    <TextView
+        android:id="@+id/VIN_ITEM_separateur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="?attr/textTextColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/dividerColor" />
+
+</LinearLayout>

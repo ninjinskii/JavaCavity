@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="?attr/backgroundColor"
+    tools:context=".ActivityVueBouteille">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="50dp"
+        app:cardBackgroundColor="?attr/backgroundCardColor"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <GridLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tip1"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/AIDE_tip1_title"
+                    android:textColor="?attr/title2TextColor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="?attr/textTextColor"
+                    android:text="@string/AIDE_tip1" />
+
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <GridLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tip2"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/AIDE_tip2_title"
+                    android:textColor="?attr/title2TextColor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="?attr/textTextColor"
+                    android:text="@string/AIDE_tip2" />
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <GridLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tip3"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/AIDE_tip3_title"
+                    android:textColor="?attr/title2TextColor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="?attr/textTextColor"
+                    android:text="@string/AIDE_tip3" />
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <GridLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tip4"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/AIDE_tip4_title"
+                    android:textColor="?attr/title2TextColor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="?attr/textTextColor"
+                    android:text="@string/AIDE_tip4" />
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <GridLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:columnCount="1"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tip5"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/AIDE_tip5_title"
+                    android:textColor="?attr/title2TextColor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="?attr/textTextColor"
+                    android:text="@string/AIDE_tip5" />
+            </GridLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>

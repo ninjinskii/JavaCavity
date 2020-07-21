@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="20dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/backgroundCardColor"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="6dp">
+
+    <!-- Image de fond, pas utilisé pour le moment -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/BOUITEM_nomBou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="?attr/titleColorInDark"
+            android:ellipsize="end"
+            android:maxWidth="185dp"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/cardViewPart">
+
+        <TextView
+            android:id="@+id/BOUITEM_nombreBou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="?attr/textHintColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BOUITEM_milBou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:textColor="?attr/textHintColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/BOUITEM_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/BOUITEM_medailleBou"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_favorite"
+            android:tint="?attr/colorAccent"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/BOUITEM_medailleBou"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/rectangle" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:id="@+id/BOUITEM_remove"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toStartOf="@id/BOUITEM_add"
+            android:tint="?attr/titleColorInDark"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_remove" />
+
+        <ImageButton
+            android:id="@+id/BOUITEM_add"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toStartOf="@id/BOUITEM_info"
+            android:tint="?attr/titleColorInDark"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_add_circle" />
+
+        <ImageButton
+            android:id="@+id/BOUITEM_info"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:tint="?attr/titleColorInDark"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_info" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

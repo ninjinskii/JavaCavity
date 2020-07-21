@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AJOUTVIN_coordinator"
+    android:background="?attr/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        app:layout_behavior="com.louis.app.cavity.FloatingActionButtonBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/AJOUTVIN_linearWrapperBouton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/AJOUTVIN_boutonAjouter"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="?attr/buttonColor"
+                android:textColor="?attr/radioColor"
+                android:text="@string/AJOUTVIN_boutonAjouter1" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/AJOUTVIN_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/AJOUTVIN_linearWrapperBouton" >
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <TextView
+                    android:id="@+id/AJOUTVIN_indication"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="?attr/textHintColor"
+                    android:textSize="20sp"
+                    android:text="@string/AJOUTVIN_hint" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    app:cardBackgroundColor="?attr/backgroundCardColor"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:focusableInTouchMode="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            style="@style/TextInputLayout"
+                            android:hint="@string/AJOUTVIN_region">
+
+                            <com.louis.app.cavity.TextInputAutoCompleteTextView
+                                android:id="@+id/AJOUTVIN_entrerRegion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"
+                                android:singleLine="true"
+                                android:imeOptions="actionNext"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="8dp"
+                                android:textColor="?attr/textHintColor"
+                                android:completionThreshold="2" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:inputType="textCapSentences"
+                            style="@style/TextInputLayout"
+                            android:layout_marginBottom="16dp"
+                            android:hint="@string/AJOUTVIN_appellation" >
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/AJOUTVIN_entrerAppellation"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"
+                                android:singleLine="true"
+                                android:imeOptions="actionNext"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="8dp"
+                                android:textColor="?attr/textHintColor" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:inputType="textCapSentences"
+                            style="@style/TextInputLayout"
+                            android:layout_marginBottom="16dp"
+                            android:hint="@string/AJOUTVIN_nom" >
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/AJOUTVIN_entrerNom"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"
+                                android:singleLine="true"
+                                android:imeOptions="actionDone"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="8dp"
+                                android:textColor="?attr/textHintColor" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <RadioGroup
+                            android:id="@+id/AJOUTVIN_radioCouleur"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="25dp"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/AJOUTVIN_radioBlanc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="10dp"
+                                android:text="@string/AJOUTVIN_blanc"
+                                android:textColor="?attr/radioColor"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:checked="true" />
+
+                            <RadioButton
+                                android:id="@+id/AJOUTVIN_radioRouge"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:textColor="?attr/radioColor"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:text="@string/AJOUTVIN_rouge" />
+
+                            <RadioButton
+                                android:id="@+id/AJOUTVIN_radioRose"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:textColor="?attr/radioColor"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:text="@string/AJOUTVIN_rose" />
+
+                            <RadioButton
+                                android:id="@+id/AJOUTVIN_radioLiquoreux"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:textColor="?attr/radioColor"
+                                android:buttonTint="?attr/buttonTintColor"
+                                android:text="@string/AJOUTVIN_liquoreux" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

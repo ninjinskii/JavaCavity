@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="title2TextColor">#000000</item>
+        <item name="textTextColor">@color/textColor</item>
+        <item name="backgroundCardColor">#F8F8F8</item>
+        <item name="dividerColor">#999999</item>
+        <item name="backgroundColor">#d9f2d9</item>
+        <item name="itemBgColor">#FCFCFC</item>
+        <item name="buttonColor">#CECECE</item>
+        <item name="radioColor">#000000</item>
+        <item name="buttonTintColor">#b71c1c</item>
+        <item name="textHintColor">@color/textColor</item>
+        <item name="cardViewPart">#20707070</item>
+        <item name="titleColorInDark">@color/textColor</item>
+        <item name="colorIcon">@color/colorPrimary</item>
+        <item name="colorCollapsingToolbar">@drawable/rectangle_green</item>
+    </style>
+
+    <!-- Style pour ActivityVueBouteille -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Style pour les TextInputLayout -->
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/textColor</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Style pour les number picker -->
+    <style name="DefaultNumberPickerTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="colorControlNormal">@color/textColor</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="DarkThemeCavity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkDarkT</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkDarkT</item>
+        <item name="title2TextColor">@color/defaultWhite</item>
+        <item name="textTextColor">@color/textColor</item>
+        <item name="backgroundCardColor">#2F2F2F</item>
+        <item name="dividerColor">#505050</item>
+        <item name="colorPrimary">@color/colorPrimaryDarkT</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDarkT</item>
+        <item name="colorAccent">@color/colorAccentDarkT</item>
+        <item name="backgroundColor">@color/defaultDark</item>
+        <item name="itemBgColor">@color/defaultDark</item>
+        <item name="buttonColor">#50F05545</item> <!-- 3F3F3F pour noir supérieur-->
+        <item name="radioColor">@color/defaultWhite</item>
+        <item name="buttonTintColor">#F05545</item>
+        <item name="textHintColor">@color/defaultWhite</item>
+        <item name="cardViewPart">#50F05545</item>
+        <item name="titleColorInDark">#90F05545</item>
+        <!--#121212  #1E1E1E #901E1E1E #301E1E1E-->
+    </style>
+
+    <style name="DarkThemeCavityVueBou" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkDarkT</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkDarkT</item>
+        <item name="title2TextColor">@color/defaultWhite</item>
+        <item name="textTextColor">@color/textColor</item>
+        <item name="backgroundCardColor">#2F2F2F</item>
+        <item name="dividerColor">#505050</item>
+        <item name="colorPrimary">@color/colorPrimaryDarkT</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDarkT</item>
+        <item name="colorAccent">@color/colorAccentDarkT</item>
+        <item name="backgroundColor">@color/defaultDark</item>
+        <item name="itemBgColor">@color/defaultDark</item>
+        <item name="buttonColor">#50F05545</item> <!-- 3F3F3F pour noir supérieur-->
+        <item name="radioColor">@color/defaultWhite</item>
+        <item name="buttonTintColor">#F05545</item>
+        <item name="textHintColor">@color/defaultWhite</item>
+        <item name="cardViewPart">#50F05545</item>
+        <item name="titleColorInDark">#90F05545</item>
+        <item name="colorIcon">#F05545</item>
+        <item name="colorCollapsingToolbar">@drawable/rectangle_black</item>
+        <!--#121212  #1E1E1E #901E1E1E #301E1E1E-->
+    </style>
+</resources>

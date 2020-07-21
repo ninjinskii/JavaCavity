@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Couleures générales -->
+    <color name="colorPrimary">#43a047</color>
+    <color name="colorPrimaryDark">#00701a</color>
+    <color name="colorPrimaryLight">#d9f2d9</color>
+    <color name="colorAccent">#b71c1c </color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#808080</color>
+
+    <!-- Couleures spéciales et ancienne couleurs vins -->
+    <color name="collapsingToolbarColor">#252525</color>
+    <color name="textColor">#808080</color>
+    <color name="colorYellowWineOld">#FFDE40</color>
+    <color name="colorPinkWineOld">#E10084</color>
+    <color name="colorRedWineOld">#A60000</color>
+    <color name="colorOrangeWineOld">#FFB400</color>
+
+    <!-- Couleures vins -->
+    <color name="colorYellowWineDark">#ffeb3b</color><!-- #ffee58 -->
+    <color name="colorPinkWineDark">#ec407a</color>
+    <color name="colorRedWineDark">#f44336</color>
+    <color name="colorOrangeWineDark">#ffa726</color>
+
+    <!-- Thème sombre -->
+    <color name="colorPrimaryDarkT">#353535</color>
+    <color name="colorPrimaryDarkDarkT">#000000</color>
+    <color name="colorAccentDarkT">#F05545</color>
+    <color name="defaultDark">#121212</color>
+    <color name="defaultWhite">#FEFEF2</color>
+
+</resources>
