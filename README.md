@@ -3,7 +3,7 @@ Migrating project to kotlin
 
 A stock management app for wine cellars, that lets you always pick the right bottle at the right time.
 
-![App home screen](/assets/home.jpg)
+<img src="/assets/home.jpg" width="400">
 
 # Features
 - Add, remove, update bottles in stock
